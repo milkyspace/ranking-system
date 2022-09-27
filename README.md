@@ -15,8 +15,8 @@ The rating cannot be negative.<br>
 100% is the maximum rating.<br>
 
 Starting the recalculation:<br>
-Ranking\Agents\RankingUpdate::execute([#elementID#,], true);<br>
-<br>
+Ranking\Cron\RankingUpdate::execute([#elementID#,], true);<br>
+
 You can pass the id of the required elements to the parameter [#elementID#,]. <br>
 After the calculation, the log will be displayed. <br>
 The results will be in “rank". <br>
